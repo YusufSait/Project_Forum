@@ -32,7 +32,9 @@ class TopicsController < ApplicationController
   def edit
   end
 
-
+    def new
+      @topic=Topic.new
+    end
 
   # POST /topics
   # POST /topics.json
