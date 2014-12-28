@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @topic.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @topic.description %>
+</p>
+<%#TODO: Get_User_Name_of_Owner %>
+<p>
+  <strong>Owner:</strong>
+  <%= @username %>
+</p>
+
+
+<% if @is_owner %>
+    <%= link_to 'Edit', edit_topic_path(@topic) %>
+    <td><%= link_to 'Destroy', @topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+<% end %>
+
+<h3>Topics: (<%= @topic.topics.size %>)</h3>
+<%= render partial: 'topics/topic', collection: @topic.topics %>   <%# display sub topics %>
+<%= render partial: 'topics/form' %>
+
+<h3>Comments: (<%= @topic.comments.size %>)</h3>
+<%= render partial: 'topics/comment', collection: @topic.comments %>
+<%= render partial: 'comments/form' %>

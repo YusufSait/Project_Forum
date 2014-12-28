@@ -1,0 +1,8 @@
+<div>
+  <h4>Topic owner <%= User.find(topic.user_id).username %></h4>
+  <p class="topic"><%= topic.title %></p>
+  <p class="topic"><%= topic.description %></p>
+  <% if logged_in? %>
+      <td><%= link_to 'Show', topic %></td>
+  <% end %>
+</div>

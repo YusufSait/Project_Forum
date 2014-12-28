@@ -1,0 +1,17 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "STREETSOULTZ CLS", '#', id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav pull-right">
+        <li style="color:#eaeaea; padding-top:20px;" >
+          <% if logged_in? %>
+              <%= "Logged in as #{current_user.username}" %>
+              <%= link_to "LOGOUT", logout_path %>
+          <% else %>
+              <%= link_to "LOGIN", login_path %>
+          <% end %>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

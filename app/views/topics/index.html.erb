@@ -1,0 +1,30 @@
+<h1>Project Forum Main Page</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+      <tr>
+        <td><%= @topics.title %></td>
+        <td><%= @topics.description %></td>
+
+        <% if logged_in? %>
+            <td><%= link_to 'Topics', @topics %></td>
+            <% if @is_owner %>
+                <td><%= link_to 'Edit', edit_topic_path(@topics) %></td>
+            <% end %>
+        <% end %>
+
+      </tr>
+  </tbody>
+</table>
+
+<br>
