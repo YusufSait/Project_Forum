@@ -6,7 +6,7 @@
     </list>
     <ignored path="ProjectForum.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419796325653" ignored="false" />
+    <file path="/Dummy.txt" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419796698061" ignored="false" />
     <file path="/topics_helper.rb" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419763485277" ignored="false" />
     <file path="/topics_controller.rb" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419763630997" ignored="false" />
     <file path="/routes.rb" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419607930928" ignored="false" />
@@ -139,6 +139,7 @@
     <option name="ENVIRONMENT" value="test" />
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -760,7 +761,11 @@
       <created>1419796327184</created>
       <updated>1419796327184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stylesheet file added to project">
+      <created>1419796700036</created>
+      <updated>1419796700036</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
