@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bfdba58-20fc-4b12-a28b-467e3d819688" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/topics/index.html.erb" afterPath="$PROJECT_DIR$/app/views/topics/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/topics_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/topics_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProjectForum.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419799638371" ignored="false" />
+    <file path="/Dummy.txt" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419801394531" ignored="false" />
     <file path="/topics_helper.rb" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419763485277" ignored="false" />
     <file path="/topics_controller.rb" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419800202146" ignored="false" />
     <file path="/routes.rb" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419607930928" ignored="false" />
@@ -36,7 +34,7 @@
     <file path="/custom.css.scss" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419785611615" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419798399391" ignored="false" />
     <file path="/addtopic.rake" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419800969078" ignored="false" />
-    <file path="/seeds.rb" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419801328904" ignored="false" />
+    <file path="/seeds.rb" changelist="2bfdba58-20fc-4b12-a28b-467e3d819688" time="1419801564079" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,7 @@
       <file leaf-file-name="seeds.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="97" selection-start="440" selection-end="440" vertical-scroll-proportion="0.26211452">
+            <state line="7" column="52" selection-start="395" selection-end="395" vertical-scroll-proportion="0.26211452">
               <folding />
             </state>
           </provider>
@@ -701,7 +699,11 @@
       <created>1419799647842</created>
       <updated>1419799647842</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="after_production">
+      <created>1419801397491</created>
+      <updated>1419801397491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -770,7 +772,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="before_production" />
+    <option name="LAST_COMMIT_MESSAGE" value="after_production" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -785,6 +787,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="before_production" />
+    <MESSAGE value="after_production" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -887,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="97" selection-start="440" selection-end="440" vertical-scroll-proportion="0.26211452">
+        <state line="7" column="52" selection-start="395" selection-end="395" vertical-scroll-proportion="0.26211452">
           <folding />
         </state>
       </provider>
