@@ -16,5 +16,4 @@
 <h3>Owned Topics: (<%= @user.topics.size %>)</h3>
 <%= render partial: 'users/topic', collection: @user.topics %>
 
-<%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>

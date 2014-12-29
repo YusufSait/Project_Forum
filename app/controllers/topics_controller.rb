@@ -8,6 +8,10 @@ class TopicsController < ApplicationController
   # GET /topics.json
   def index
     @topics = Topic.find(1)
+    @topic = Topic.find(1)
+    if logged_in?
+      @is_owner=owner?
+    end
   end
 
   # GET /topics/1
