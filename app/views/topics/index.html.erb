@@ -3,6 +3,9 @@
 <table>
   <thead>
     <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th></th>
       <th></th>
     </tr>
   </thead>
@@ -10,17 +13,15 @@
   <tbody>
 
       <tr>
+        <td><%= @topics.title %></td>
+        <td><%= @topics.description %></td>
+
         <% if logged_in? %>
-           <tr>
-            <td><%= link_to 'Enter Project Forum', @topics %></td>   </tr>
+            <td><%= link_to 'Topics', @topics %></td>
+            <td><%= link_to 'New', new_topic_path %></td>
             <% if @is_owner %>
-          <tr><td><%= link_to 'Edit', edit_topic_path(@topics) %></td></tr>
-          <tr> <td><%= link_to 'Admin Panel', users_path %></td> </tr>
-            <% else %>
-          <tr><td><%= link_to 'User Panel', users_path %></td></tr>
+                <td><%= link_to 'Edit', edit_topic_path(@topics) %></td>
             <% end %>
-        <% else %>
-      <tr> <td>Register to Enter Project Forum</td> </tr>
         <% end %>
 
       </tr>
